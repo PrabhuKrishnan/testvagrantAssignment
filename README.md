@@ -1,5 +1,4 @@
 # testvagrantAssignment
-
 Run the test using the TestNg.xml file, present in the project root path
 Implemented the given assignment using Java and Rest Assured API
 Code for Testcase are is in this path: /src/test/java/test/RCBTeamPlayers.java
