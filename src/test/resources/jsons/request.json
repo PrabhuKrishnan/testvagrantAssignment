@@ -1,0 +1,29 @@
+{
+  "id":"number",
+  "first_name": "fname",
+  "last_name": "Hodkiewicz",
+  "email": "Gaston.Waters@yahoo.com",
+  "jobs": [
+    "tester",
+    "traveller",
+    "trader"
+  ],
+  "marks": [
+    {
+      "tamil": 95,
+      "english": 90
+    },
+    {
+      "tamil": 70,
+      "english": 75
+    }
+  ],
+  "favFoods": {
+    "breakFast": "egg",
+    "lunch": "grill chicken",
+    "dinner": [
+      "mutton Ran",
+      "salad"
+    ]
+  }
+}

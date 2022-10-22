@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.app.listeners.TestListeners"/>
+    </listeners>
+
+    <test  parallel="methods" thread-count="1" name="Rest Assured API Framework">
+        <classes>
+            <!-- <class name="com.app.tests.GetTests">
+                <methods>
+                    <include name="getEmployeesDetails" />
+                    <include name="getEmployeeDetail" />
+                </methods>
+            </class>
+            <class name="com.app.tests.PostTest">
+                <methods>
+                    <include name="postMethodRequestTest" />
+                    <include name="postRequestUsingExternalFile" />
+                    <include name="postRequestUsingExternalFile1" />
+                </methods>
+            </class>-->
+            <class name="com.app.tests.assertj.CustomAssertionUsingAssertJ"></class>
+        </classes>
+    </test>
+</suite>
