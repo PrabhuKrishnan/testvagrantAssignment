@@ -7,20 +7,12 @@
 
     <test  parallel="methods" thread-count="1" name="Rest Assured API Framework">
         <classes>
-            <!-- <class name="com.app.tests.GetTests">
+            <class name="com.app.tests.RCBTeamPlayersTest">
                 <methods>
-                    <include name="getEmployeesDetails" />
-                    <include name="getEmployeeDetail" />
+                    <include name="validateRCBTeamHasOneWicketKeeper"/>
+                    <include name="validateRCBTeamHasFourForeignPlayers" />
                 </methods>
             </class>
-            <class name="com.app.tests.PostTest">
-                <methods>
-                    <include name="postMethodRequestTest" />
-                    <include name="postRequestUsingExternalFile" />
-                    <include name="postRequestUsingExternalFile1" />
-                </methods>
-            </class>-->
-            <class name="com.app.tests.assertj.CustomAssertionUsingAssertJ"></class>
         </classes>
     </test>
 </suite>
